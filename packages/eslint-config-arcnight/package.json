@@ -1,0 +1,25 @@
+{
+  "name": "@arcnight/eslint-config-arcnight",
+  "version": "1.0.0",
+  "description": "Modern eslint config for a more civilized age",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "typescript",
+    "styleguide"
+  ],
+  "license": "GPL-3.0",
+  "author": "Arcnight Inc.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ]
+}

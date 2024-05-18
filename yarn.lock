@@ -5,6 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@arcnight/eslint-config-arcnight@workspace:packages/eslint-config-arcnight":
+  version: 0.0.0-use.local
+  resolution: "@arcnight/eslint-config-arcnight@workspace:packages/eslint-config-arcnight"
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.0.0":
   version: 7.24.2
   resolution: "@babel/code-frame@npm:7.24.2"
