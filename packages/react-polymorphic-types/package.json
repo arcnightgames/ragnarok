@@ -1,0 +1,39 @@
+{
+  "name": "@arcnight/react-polymorphic-types",
+  "version": "1.0.0",
+  "description": "Zero-runtime polymorphic component definitions for React",
+  "license": "MIT",
+  "author": "Kristóf Poduszló <kripod@protonmail.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/react-polymorphic-types.js"
+    }
+  },
+  "main": "dist/react-polymorphic-types.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint lib",
+    "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
+    "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight",
+    "@types/react": "^18.2.74",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.1"
+  },
+  "peerDependencies": {
+    "@types/react": ">=16.14.52"
+  }
+}
