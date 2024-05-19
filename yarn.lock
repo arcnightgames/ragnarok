@@ -51,6 +51,7 @@ __metadata:
     eslint: "npm:^8.57.0"
     prettier: "npm:^3.2.5"
     react: "npm:^18.2.0"
+    tsup: "npm:^8.0.2"
     typescript: "npm:^5.4.3"
     vite: "npm:^5.2.8"
     vite-plugin-dts: "npm:^3.8.1"

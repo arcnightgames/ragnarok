@@ -2,7 +2,8 @@ import {defineConfig} from "tsup";
 
 export default defineConfig({
   entry: ["lib/index.ts"],
-  external: ["eslint"],
+  external: ["react", "react/jsx-runtime"],
+  skipNodeModulesBundle: true,
   splitting: false,
   treeshake: true,
   format: ["esm"],

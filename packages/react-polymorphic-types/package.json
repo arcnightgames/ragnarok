@@ -16,8 +16,9 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsup",
     "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
     "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
     "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)"
   },
@@ -29,9 +30,8 @@
     "@types/react": "^18.2.74",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.8",
-    "vite-plugin-dts": "^3.8.1"
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
   },
   "peerDependencies": {
     "@types/react": ">=16.14.52"
