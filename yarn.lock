@@ -101,6 +101,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arcnight/styles@workspace:packages/styles":
+  version: 0.0.0-use.local
+  resolution: "@arcnight/styles@workspace:packages/styles"
+  dependencies:
+    include-media: "npm:^2.0.0"
+    inter-ui: "npm:^4.0.2"
+  languageName: unknown
+  linkType: soft
+
 "@arcnight/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@arcnight/utils@workspace:packages/utils"
@@ -6012,6 +6021,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"include-media@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "include-media@npm:2.0.0"
+  checksum: 10c0/c9c92f8030c5c98b64513f59f2d6064150439bff53ee3f3904047e2d99ce532b7ab452fee460b746739d54df677efc1de26e8bd967d64eb1425ed0898590913e
+  languageName: node
+  linkType: hard
+
 "indent-string@npm:^4.0.0":
   version: 4.0.0
   resolution: "indent-string@npm:4.0.0"
@@ -6085,6 +6101,13 @@ __metadata:
     through: "npm:^2.3.6"
     wrap-ansi: "npm:^6.0.1"
   checksum: 10c0/eb5724de1778265323f3a68c80acfa899378cb43c24cdcb58661386500e5696b6b0b6c700e046b7aa767fe7b4823c6f04e6ddc268173e3f84116112529016296
+  languageName: node
+  linkType: hard
+
+"inter-ui@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "inter-ui@npm:4.0.2"
+  checksum: 10c0/0f3bbc53d26c3ac342b3d6fae787a276b50cb0a339e818af749ef535012043165a767fa648f72dbf791002049165f563e854aecd92acd35bd50c63ea66d18f4d
   languageName: node
   linkType: hard
 
