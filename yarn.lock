@@ -114,6 +114,26 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arcnight/shared@workspace:packages/shared":
+  version: 0.0.0-use.local
+  resolution: "@arcnight/shared@workspace:packages/shared"
+  dependencies:
+    "@arcnight/colors": "workspace:packages/colors"
+    "@arcnight/crypto": "workspace:packages/crypto"
+    "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight"
+    "@arcnight/utils": "workspace:packages/utils"
+    "@types/lodash": "npm:^4.17.0"
+    "@types/node": "npm:^20.12.3"
+    eslint: "npm:^8.57.0"
+    jsbi: "npm:^4.3.0"
+    lodash: "npm:^4.17.21"
+    prettier: "npm:^3.2.5"
+    typescript: "npm:^5.4.3"
+    vite: "npm:^5.2.8"
+    vite-plugin-dts: "npm:^3.8.1"
+  languageName: unknown
+  linkType: soft
+
 "@arcnight/styles@workspace:packages/styles":
   version: 0.0.0-use.local
   resolution: "@arcnight/styles@workspace:packages/styles"
@@ -2166,6 +2186,13 @@ __metadata:
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10c0/a996a745e6c5d60292f36731dd41341339d4eeed8180bb09226e5c8d23759067692b1d88e5d91d72ee83dfc00d3aca8e7bd43ea120516c17922cbcb7c3e252db
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.17.0":
+  version: 4.17.4
+  resolution: "@types/lodash@npm:4.17.4"
+  checksum: 10c0/0124c64cb9fe7a0f78b6777955abd05ef0d97844d49118652eae45f8fa57bfb7f5a7a9bccc0b5a84c0a6dc09631042e4590cb665acb9d58dfd5e6543c75341ec
   languageName: node
   linkType: hard
 
@@ -6678,6 +6705,13 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10c0/6746baaaeac312c4db8e75fa22331d9a04cccb7792d126ed8ce6a0bbcfef0cedaddd0c5098fade53db067c09fe00aa1c957674b4765610a8b06a5a189e46433b
+  languageName: node
+  linkType: hard
+
+"jsbi@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "jsbi@npm:4.3.0"
+  checksum: 10c0/1817ac1b50ea3f4438bcd84cadc9aee7a8657829f65b55ea6f151f401dbbd3babedbfdd3e4f481bd7b5472abb7823efa640fd7e5eee7c30cea6431f7a8b74696
   languageName: node
   linkType: hard
 
