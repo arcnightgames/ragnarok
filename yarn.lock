@@ -15,6 +15,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@arcnight/colors@workspace:packages/colors":
+  version: 0.0.0-use.local
+  resolution: "@arcnight/colors@workspace:packages/colors"
+  dependencies:
+    typescript: "npm:^5.4.3"
+  languageName: unknown
+  linkType: soft
+
 "@arcnight/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@arcnight/components@workspace:packages/components"
