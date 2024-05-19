@@ -1,0 +1,14 @@
+{
+  "name": "@arcnight/colors",
+  "description": "Package containing the logic for Arcnight design system color computations",
+  "license": "AGPL-3.0",
+  "author": "Arcnight Inc.",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
