@@ -1,0 +1,17 @@
+{
+  "name": "@arcnight/styles",
+  "version": "0.1.0",
+  "description": "Arcnight Design system",
+  "license": "ISC",
+  "author": "Arcnight Inc.",
+  "type": "module",
+  "files": [
+    "*"
+  ],
+  "dependencies": {
+    "inter-ui": "^4.0.2"
+  },
+  "devDependencies": {
+    "include-media": "^2.0.0"
+  }
+}
