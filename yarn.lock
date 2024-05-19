@@ -93,6 +93,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arcnight/utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@arcnight/utils@workspace:packages/utils"
+  dependencies:
+    "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight"
+    eslint: "npm:^8.57.0"
+    prettier: "npm:^3.2.5"
+    typescript: "npm:^5.4.3"
+    vite: "npm:^5.2.8"
+    vite-plugin-dts: "npm:^3.8.1"
+  languageName: unknown
+  linkType: soft
+
 "@ast-grep/napi-darwin-arm64@npm:0.22.3":
   version: 0.22.3
   resolution: "@ast-grep/napi-darwin-arm64@npm:0.22.3"
