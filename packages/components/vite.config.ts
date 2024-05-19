@@ -39,5 +39,5 @@ export default defineConfig({
         "@remix-run/router",
       ],
     },
-  }
+  },
 });
