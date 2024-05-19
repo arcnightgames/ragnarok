@@ -17,10 +17,12 @@
   ],
   "scripts": {
     "build": "tsc && vite build",
+    "build:storybook": "storybook build",
     "lint": "eslint lib",
     "lint:fix": "eslint lib --fix",
     "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
-    "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)"
+    "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
+    "storybook": "storybook dev --no-open -p 6006"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -32,6 +34,17 @@
   "devDependencies": {
     "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight",
     "@arcnight/react-polymorphic-types": "workspace:packages/react-polymorphic-types",
+    "@storybook/addon-docs": "^8.0.5",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-interactions": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/addon-onboarding": "^8.0.5",
+    "@storybook/blocks": "^8.0.5",
+    "@storybook/manager-api": "^8.0.5",
+    "@storybook/react": "^8.0.5",
+    "@storybook/react-vite": "^8.0.5",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/theming": "^8.0.5",
     "@types/node": "^20.12.3",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
@@ -39,6 +52,7 @@
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "sass": "^1.72.0",
+    "storybook": "^8.0.5",
     "typescript": "^5.4.3",
     "vite": "^5.2.8",
     "vite-plugin-dts": "^3.8.1",
