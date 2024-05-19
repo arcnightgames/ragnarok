@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": [
+      "vitest/globals"
+    ]
   },
   "extends": "../../tsconfig.base.json"
 }

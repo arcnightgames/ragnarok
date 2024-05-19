@@ -18,11 +18,13 @@
   "scripts": {
     "build": "tsc && vite build",
     "build:storybook": "storybook build",
+    "coverage": "vitest run --coverage",
     "lint": "eslint lib",
     "lint:fix": "eslint lib --fix",
     "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
     "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
-    "storybook": "storybook dev --no-open -p 6006"
+    "storybook": "storybook dev --no-open -p 6006",
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -45,17 +47,26 @@
     "@storybook/react-vite": "^8.0.5",
     "@storybook/testing-library": "^0.2.2",
     "@storybook/theming": "^8.0.5",
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
     "@types/node": "^20.12.3",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
+    "@types/text-encoding-utf-8": "^1.0.5",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.4.0",
     "eslint": "^8.57.0",
+    "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
     "sass": "^1.72.0",
     "storybook": "^8.0.5",
+    "text-encoding-utf-8": "^1.0.2",
     "typescript": "^5.4.3",
     "vite": "^5.2.8",
     "vite-plugin-dts": "^3.8.1",
-    "vite-plugin-lib-inject-css": "^2.0.1"
+    "vite-plugin-lib-inject-css": "^2.0.1",
+    "vitest": "^1.4.0"
   }
 }
