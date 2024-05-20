@@ -53,5 +53,6 @@ dist
 build
 release
 
-### Coverage output ###
+### Tests output ###
+.vitest
 coverage

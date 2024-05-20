@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RadioGroup > RadioGroup renders correctly 1`] = `
+<div>
+  <label
+    class="relative inline-flex children-self-center mr-8 mb-2"
+    for="selected-themes-radio_0"
+  >
+    <input
+      checked=""
+      class="radio"
+      id="selected-themes-radio_0"
+      name="selected-themes"
+      type="radio"
+    />
+    <span
+      class="radio-fakeradio shrink-0 mr-2"
+    />
+    Dark
+  </label>
+  <label
+    class="relative inline-flex children-self-center mr-8 mb-2"
+    for="selected-themes-radio_1"
+  >
+    <input
+      class="radio"
+      id="selected-themes-radio_1"
+      name="selected-themes"
+      type="radio"
+    />
+    <span
+      class="radio-fakeradio shrink-0 mr-2"
+    />
+    Light
+  </label>
+  <label
+    class="relative inline-flex children-self-center mr-8 mb-2"
+    for="selected-themes-radio_2"
+  >
+    <input
+      class="radio"
+      id="selected-themes-radio_2"
+      name="selected-themes"
+      type="radio"
+    />
+    <span
+      class="radio-fakeradio shrink-0 mr-2"
+    />
+    Auto
+  </label>
+</div>
+`;

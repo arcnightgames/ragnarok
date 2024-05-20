@@ -27,4 +27,21 @@ describe("CircleLoader component", () => {
 
     expect(circleLoader).toHaveClass("custom-class");
   });
+
+  test("renders CircleLoader component correctly", () => {
+    const {container} = render(<CircleLoader />);
+    expect(container).toMatchSnapshot();
+  });
+
+  test("renders CircleLoader component with medium size correctly", () => {
+    const {container} = render(<CircleLoader size="medium" />);
+    expect(container).toMatchSnapshot();
+  });
+
+  test("renders CircleLoader component with custom class and data-testid correctly", () => {
+    const {container} = render(
+      <CircleLoader className="custom-class" data-testid="loader-test" />,
+    );
+    expect(container).toMatchSnapshot();
+  });
 });

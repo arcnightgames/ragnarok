@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CircleLoader component > renders CircleLoader component correctly 1`] = `
+<div>
+  <svg
+    class="circle-loader"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <circle
+        cx="8"
+        cy="8"
+        id="circle_loader_3"
+        r="7"
+      />
+    </defs>
+    <use
+      class="circle-loader-track"
+      href="#circle_loader_3"
+    />
+    <use
+      class="circle-loader-circle"
+      href="#circle_loader_3"
+    />
+  </svg>
+</div>
+`;
+
+exports[`CircleLoader component > renders CircleLoader component with custom class and data-testid correctly 1`] = `
+<div>
+  <svg
+    class="circle-loader custom-class"
+    data-testid="loader-test"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <circle
+        cx="8"
+        cy="8"
+        id="circle_loader_5"
+        r="7"
+      />
+    </defs>
+    <use
+      class="circle-loader-track"
+      href="#circle_loader_5"
+    />
+    <use
+      class="circle-loader-circle"
+      href="#circle_loader_5"
+    />
+  </svg>
+</div>
+`;
+
+exports[`CircleLoader component > renders CircleLoader component with medium size correctly 1`] = `
+<div>
+  <svg
+    class="circle-loader is-medium"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <circle
+        cx="8"
+        cy="8"
+        id="circle_loader_4"
+        r="7"
+      />
+    </defs>
+    <use
+      class="circle-loader-track"
+      href="#circle_loader_4"
+    />
+    <use
+      class="circle-loader-circle"
+      href="#circle_loader_4"
+    />
+  </svg>
+</div>
+`;

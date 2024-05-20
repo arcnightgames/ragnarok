@@ -1,0 +1,104 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button Component > renders with custom color 1`] = `
+<button
+  aria-busy="false"
+  class="button button-solid-secondary"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with custom data-testid 1`] = `
+<button
+  aria-busy="false"
+  class="button button-solid-primary"
+  data-testid="test-button"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with custom shape 1`] = `
+<button
+  aria-busy="false"
+  class="button button-outline-primary"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with custom size 1`] = `
+<button
+  aria-busy="false"
+  class="button button-small button-solid-primary"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with default props 1`] = `
+<button
+  aria-busy="false"
+  class="button button-solid-primary"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with disabled state 1`] = `
+<button
+  aria-busy="false"
+  class="button button-solid-primary"
+  disabled=""
+  tabindex="-1"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with full width 1`] = `
+<button
+  aria-busy="false"
+  class="button w-full button-solid-primary"
+>
+  Click me
+</button>
+`;
+
+exports[`Button Component > renders with loading state 1`] = `
+<button
+  aria-busy="true"
+  class="button button-solid-primary"
+  disabled=""
+  tabindex="-1"
+>
+  Click me
+  <span
+    class="button-loader-container"
+  >
+    <svg
+      class="circle-loader"
+      viewBox="0 0 16 16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <circle
+          cx="8"
+          cy="8"
+          id="circle_loader_1"
+          r="7"
+        />
+      </defs>
+      <use
+        class="circle-loader-track"
+        href="#circle_loader_1"
+      />
+      <use
+        class="circle-loader-circle"
+        href="#circle_loader_1"
+      />
+    </svg>
+  </span>
+</button>
+`;

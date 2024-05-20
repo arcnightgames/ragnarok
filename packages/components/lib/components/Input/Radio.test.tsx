@@ -62,4 +62,34 @@ describe("Radio component tests", () => {
     fireEvent.click(radioInput);
     expect(handleChange).toHaveBeenCalledTimes(1);
   });
+
+  it("renders correctly when enabled", () => {
+    const {container} = render(<Radio name="test" />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("renders correctly when disabled", () => {
+    const {container} = render(<Radio name="test" disabled />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("renders correctly with custom class", () => {
+    const {container} = render(<Radio name="test" className="custom-class" />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("renders correctly with children", () => {
+    const {container} = render(<Radio name="test">Radio Label</Radio>);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("renders correctly with data-testid", () => {
+    const {container} = render(<Radio name="test" data-testid="radio-test" />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("renders correctly when checked", () => {
+    const {container} = render(<Radio name="test" defaultChecked />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });

@@ -1,0 +1,109 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Radio component tests > renders correctly when checked 1`] = `
+<label
+  class="relative inline-flex"
+  for="radio_5"
+>
+  <input
+    checked=""
+    class="radio"
+    id="radio_5"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0"
+  />
+</label>
+`;
+
+exports[`Radio component tests > renders correctly when disabled 1`] = `
+<label
+  class="relative opacity-50 no-pointer-events inline-flex"
+  for="radio_1"
+>
+  <input
+    class="radio"
+    disabled=""
+    id="radio_1"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0"
+  />
+</label>
+`;
+
+exports[`Radio component tests > renders correctly when enabled 1`] = `
+<label
+  class="relative inline-flex"
+  for="radio_0"
+>
+  <input
+    class="radio"
+    id="radio_0"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0"
+  />
+</label>
+`;
+
+exports[`Radio component tests > renders correctly with children 1`] = `
+<label
+  class="relative inline-flex"
+  for="radio_3"
+>
+  <input
+    class="radio"
+    id="radio_3"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0 mr-2"
+  />
+  Radio Label
+</label>
+`;
+
+exports[`Radio component tests > renders correctly with custom class 1`] = `
+<label
+  class="relative custom-class"
+  for="radio_2"
+>
+  <input
+    class="radio"
+    id="radio_2"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0"
+  />
+</label>
+`;
+
+exports[`Radio component tests > renders correctly with data-testid 1`] = `
+<label
+  class="relative inline-flex"
+  data-testid="radio-test-label"
+  for="radio_4"
+>
+  <input
+    class="radio"
+    data-testid="radio-test-input"
+    id="radio_4"
+    name="test"
+    type="radio"
+  />
+  <span
+    class="radio-fakeradio shrink-0"
+    data-testid="radio-test-span"
+  />
+</label>
+`;
