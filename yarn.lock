@@ -36,6 +36,8 @@ __metadata:
   dependencies:
     "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight"
     "@arcnight/react-polymorphic-types": "workspace:packages/react-polymorphic-types"
+    "@arcnight/shared": "workspace:packages/shared"
+    "@arcnight/utils": "workspace:packages/utils"
     "@storybook/addon-docs": "npm:^8.0.5"
     "@storybook/addon-essentials": "npm:^8.0.5"
     "@storybook/addon-interactions": "npm:^8.0.5"
