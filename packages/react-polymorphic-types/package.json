@@ -7,10 +7,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/react-polymorphic-types.js"
+      "import": "./dist/index.js"
     }
   },
-  "main": "dist/react-polymorphic-types.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
