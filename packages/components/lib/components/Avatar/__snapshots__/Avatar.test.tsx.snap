@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Avatar Component > renders correctly 1`] = `
+<button
+  class="avatar-container rounded-full"
+  style="--avatar-color: #347485;"
+/>
+`;
+
+exports[`Avatar Component > renders with provided bad src 1`] = `null`;
