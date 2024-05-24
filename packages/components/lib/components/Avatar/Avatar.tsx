@@ -47,7 +47,11 @@ const generateColor = (str?: string) => {
 
   hash = (hash ^ 0x1f0d88) & 0xffffff;
 
-  const brightness = (0.2126 * ((hash >> 16) & 0xff) + 0.7152 * ((hash >> 8) & 0xff) + 0.0722 * (hash & 0xff)) / 255;
+  const brightness =
+    (0.2126 * ((hash >> 16) & 0xff) +
+      0.7152 * ((hash >> 8) & 0xff) +
+      0.0722 * (hash & 0xff)) /
+    255;
 
   if (brightness < 0.2) {
     hash = hash + 0x666666;

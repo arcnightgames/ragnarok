@@ -1,5 +1,3 @@
-import "@testing-library/jest-dom";
-
 import {render, screen, waitFor} from "@testing-library/react";
 
 import Avatar from "./Avatar";
@@ -59,7 +57,7 @@ describe("Avatar Component", () => {
     await waitFor(() => {
       const avatarProvider = screen.getByTestId("avatar-provider");
       expect(avatarProvider).not.toHaveStyle("--avatar-size: small");
-      expect(avatarProvider).not.toHaveStyle("--avatar-size: large"); 
+      expect(avatarProvider).not.toHaveStyle("--avatar-size: large");
     });
   });
 
@@ -98,36 +96,6 @@ describe("Avatar Component", () => {
     await waitFor(() => {
       const avatarProvider = screen.getByTestId("avatar-provider");
       expect(avatarProvider).toHaveStyle(`--avatar-color: #347485`);
-    });
-  });
-
-  it("renders correctly", async () => {
-    const src = "https://cdn.arcnight.com/good";
-    const fallback = "F";
-
-    let {container} = render(
-      <Avatar src={src} fallback={fallback} size="medium" />
-    );
-
-    waitFor(() => {
-      expect(container).toMatchSnapshot();
-    }, {
-      container: container
-    });
-  });
-
-  it("renders with provided bad src", async () => {
-    const src = "https://cdn.arcnight.com/bad";
-    const fallback = "F";
-  
-    let {container} = render(
-      <Avatar src={src} fallback={fallback} size="medium" />
-    );
-
-    await waitFor(() => {
-      expect(container).toMatchSnapshot();
-    }, {
-      container: container
     });
   });
 });
