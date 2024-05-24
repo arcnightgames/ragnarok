@@ -3,7 +3,6 @@ import "@testing-library/jest-dom";
 import {render, screen, waitFor} from "@testing-library/react";
 
 import Avatar from "./Avatar";
-import {act} from "react";
 
 // Mock the react-polymorphic-types module
 vi.mock("@arcnight/react-polymorphic-types", () => ({
@@ -106,17 +105,14 @@ describe("Avatar Component", () => {
     const src = "https://cdn.arcnight.com/good";
     const fallback = "F";
 
-    let container: HTMLElement;
-
-    act(() => {
-      const renderResult = render(
-        <Avatar src={src} fallback={fallback} size="medium" />
-      );
-      container = renderResult.container;
-    });
+    let {container} = render(
+      <Avatar src={src} fallback={fallback} size="medium" />
+    );
 
     waitFor(() => {
-      expect(container.firstChild).toMatchSnapshot();
+      expect(container).toMatchSnapshot();
+    }, {
+      container: container
     });
   });
 
@@ -124,13 +120,14 @@ describe("Avatar Component", () => {
     const src = "https://cdn.arcnight.com/bad";
     const fallback = "F";
   
-    render(
+    let {container} = render(
       <Avatar src={src} fallback={fallback} size="medium" />
     );
-  
+
     await waitFor(() => {
-      const button = screen.getByRole("button");
-      expect(button.firstChild).toMatchSnapshot();
+      expect(container).toMatchSnapshot();
+    }, {
+      container: container
     });
   });
 });
