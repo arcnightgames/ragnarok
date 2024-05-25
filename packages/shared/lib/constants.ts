@@ -81,5 +81,6 @@ export enum DESKTOP_PLATFORMS {
 }
 
 export enum ARCNIGHT_WEBSITES {
-  STATUS_PAGE = "https://status.arcnight.com",
+  CDN = "https://cdn.arcnight.com",
+  STATUS = "https://status.arcnight.com",
 }
