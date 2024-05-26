@@ -1,4 +1,5 @@
 import {ArcnightConfig} from "@arcnight/shared";
+import {Icons} from "@components/Icon";
 import {ReactNode} from "react";
 import {BrowserRouter} from "react-router-dom";
 
@@ -18,6 +19,7 @@ interface AppProps {
 const ArcnightApp = ({config, children}: AppProps) => {
   return (
     <ConfigProvider config={config}>
+      <Icons />
       <BrowserRouter>{children}</BrowserRouter>
     </ConfigProvider>
   );

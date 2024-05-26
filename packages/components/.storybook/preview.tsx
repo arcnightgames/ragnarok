@@ -1,6 +1,7 @@
 import type {Preview} from "@storybook/react";
 import {ArcnightConfig} from "@arcnight/shared";
 import {ConfigProvider} from "@containers/config";
+import {Icons} from "@components/Icon";
 
 import "./index.scss";
 
@@ -20,6 +21,7 @@ const preview: Preview = {
   decorators: [
     (Story) => (
       <ConfigProvider config={config}>
+        <Icons />
         <Story />
       </ConfigProvider>
     ),
