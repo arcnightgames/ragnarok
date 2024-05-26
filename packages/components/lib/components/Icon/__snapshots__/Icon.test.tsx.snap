@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Icon component > renders correctly with custom props 1`] = `
+<svg
+  aria-hidden="true"
+  class="icon-24p"
+  data-testid="minus-icon"
+  focusable="false"
+  role="img"
+  style="color: red; transform: rotate(90deg);"
+  viewBox="0 0 16 16"
+>
+  <title>
+    Minus Icon
+  </title>
+  <use
+    xlink:href="#ic-minus"
+  />
+</svg>
+`;
+
+exports[`Icon component > renders correctly with default props 1`] = `
+<svg
+  aria-hidden="true"
+  class="icon-16p"
+  focusable="false"
+  role="img"
+  viewBox="0 0 16 16"
+>
+  <use
+    xlink:href="#ic-checkmark"
+  />
+</svg>
+`;
