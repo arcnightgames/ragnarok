@@ -42,7 +42,7 @@ const Logo = <E extends ElementType = typeof defaultElement>(
 
   return (
     <Element className={clsx("logo", sublogo !== "default" && "sublogo")} ref={ref} data-testid={dataTestId} {...restProps}>
-      <img src={arcnight} alt="Rednight" />
+      <img src={arcnight} alt="Arcnight" />
 
       {sublogo !== "default" && (
         <svg
