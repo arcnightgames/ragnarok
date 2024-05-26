@@ -1,0 +1,48 @@
+{
+  "name": "@arcnight/hooks",
+  "version": "0.1.0",
+  "description": "Generic business use-case agnostic helper hooks",
+  "license": "AGPL-3.0",
+  "author": "Arcnight Inc.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/hooks.js"
+    }
+  },
+  "main": "dist/hooks.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint lib",
+    "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
+    "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight",
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.12.3",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.4.0",
+    "eslint": "^8.57.0",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.1",
+    "vitest": "^1.4.0"
+  }
+}
