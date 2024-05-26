@@ -29,9 +29,10 @@
     "test:update": "vitest run --update"
   },
   "dependencies": {
+    "@arcnight/hooks": "workspace:packages/hooks",
     "@arcnight/shared": "workspace:packages/shared",
-    "@arcnight/utils": "workspace:packages/utils",
     "@arcnight/styles": "workspace:packages/styles",
+    "@arcnight/utils": "workspace:packages/utils",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",
