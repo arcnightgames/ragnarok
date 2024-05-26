@@ -8,6 +8,9 @@
       "@containers/*": [
         "lib/containers/*"
       ],
+      "@hooks": [
+        "lib/hooks/index.ts"
+      ],
     },
     "types": [
       "vitest/globals"
