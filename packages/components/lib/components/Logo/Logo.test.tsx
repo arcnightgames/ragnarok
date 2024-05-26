@@ -11,7 +11,9 @@ describe("Logo Component", () => {
   });
 
   it("renders with identity sublogo", () => {
-    const {getByTestId} = render(<Logo sublogo="identity" data-testid="logo" />);
+    const {getByTestId} = render(
+      <Logo sublogo="identity" data-testid="logo" />,
+    );
     expect(getByTestId("logo")).toBeInTheDocument();
   });
 

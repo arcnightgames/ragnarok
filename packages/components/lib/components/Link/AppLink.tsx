@@ -1,5 +1,5 @@
-import {useConfig} from "@hooks";
 import {APP_NAMES, getAppHrefBundle} from "@arcnight/shared";
+import {useConfig} from "@hooks";
 import {AnchorHTMLAttributes, forwardRef, Ref} from "react";
 import {Link as ReactRouterLink} from "react-router-dom";
 

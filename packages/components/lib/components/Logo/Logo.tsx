@@ -1,8 +1,8 @@
 import "./Logo.scss";
 
 import {PolymorphicPropsWithRef} from "@arcnight/react-polymorphic-types";
-import identity from "@arcnight/styles/assets/img/brand/identity.svg";
 import arcnight from "@arcnight/styles/assets/img/brand/arcnight.svg";
+import identity from "@arcnight/styles/assets/img/brand/identity.svg";
 import wordmark from "@arcnight/styles/assets/img/brand/wordmark.svg";
 import {clsx} from "@arcnight/utils";
 import {ElementType, forwardRef, Ref} from "react";
@@ -41,7 +41,12 @@ const Logo = <E extends ElementType = typeof defaultElement>(
   const Element: ElementType = as || defaultElement;
 
   return (
-    <Element className={clsx("logo", sublogo !== "default" && "sublogo")} ref={ref} data-testid={dataTestId} {...restProps}>
+    <Element
+      className={clsx("logo", sublogo !== "default" && "sublogo")}
+      ref={ref}
+      data-testid={dataTestId}
+      {...restProps}
+    >
       <img src={arcnight} alt="Arcnight" />
 
       {sublogo !== "default" && (
