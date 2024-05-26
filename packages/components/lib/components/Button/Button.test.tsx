@@ -52,42 +52,42 @@ describe("Button Component", () => {
     expect(button).toHaveClass("button-ghost-secondary");
   });
 
-  test("renders with default props", () => {
+  it("renders with default props", () => {
     const {container} = render(<Button>Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with loading state", () => {
+  it("renders with loading state", () => {
     const {container} = render(<Button loading>Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with disabled state", () => {
+  it("renders with disabled state", () => {
     const {container} = render(<Button disabled>Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with custom size", () => {
+  it("renders with custom size", () => {
     const {container} = render(<Button size="small">Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with custom shape", () => {
+  it("renders with custom shape", () => {
     const {container} = render(<Button shape="outline">Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with custom color", () => {
+  it("renders with custom color", () => {
     const {container} = render(<Button color="secondary">Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with full width", () => {
+  it("renders with full width", () => {
     const {container} = render(<Button fullWidth>Click me</Button>);
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test("renders with custom data-testid", () => {
+  it("renders with custom data-testid", () => {
     const {container} = render(
       <Button data-testid="test-button">Click me</Button>,
     );
