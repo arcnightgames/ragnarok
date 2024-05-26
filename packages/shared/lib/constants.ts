@@ -17,6 +17,7 @@ export const BRAND_NAME = "Arcnight";
 export const APPS = {
   LANDING: "@arcnight/landing",
   ACCOUNT: "@arcnight/account",
+  STORYBOOK: "@arcnight/storybook",
 } as const;
 
 interface AppConfiguration {
@@ -47,6 +48,15 @@ export const APPS_CONFIGURATION: {[key in APP_NAMES]: AppConfiguration} = {
     clientID: "landing",
     icon: "brand-arcnight",
     settingsSlug: "account",
+  },
+  [APPS.STORYBOOK]: {
+    publicPath: "",
+    subdomain: "",
+    name: `${BRAND_NAME}`,
+    bareName: "Storybook",
+    clientID: "storybook",
+    icon: "brand-arcnight",
+    settingsSlug: "",
   },
 };
 
