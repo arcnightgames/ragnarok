@@ -1,0 +1,64 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Checkbox component > Checkbox renders correctly 1`] = `
+<label
+  class="checkbox-container relative"
+  for="checkbox_4"
+>
+  <input
+    class="checkbox-input"
+    id="checkbox_4"
+    type="checkbox"
+  />
+  <span
+    class="checkbox-fakecheck"
+  >
+    <svg
+      aria-hidden="true"
+      class="icon-16p checkbox-fakecheck-img"
+      focusable="false"
+      role="img"
+      viewBox="0 0 16 16"
+    >
+      <use
+        xlink:href="#ic-checkmark"
+      />
+    </svg>
+  </span>
+</label>
+`;
+
+exports[`Checkbox component > Checkbox with custom props renders correctly 1`] = `
+<label
+  class="checkbox-container relative custom-class"
+  data-testid="custom-test-id-label"
+  for="custom-id"
+  title="Custom Title"
+>
+  <input
+    class="checkbox-input"
+    data-testid="custom-test-id-input"
+    id="custom-id"
+    type="checkbox"
+  />
+  <span
+    class="checkbox-fakecheck mr-2"
+    data-testid="custom-test-id-span"
+    style="border-color: #0000ff; background: rgb(0, 255, 0); color: rgb(255, 0, 0);"
+  >
+    <svg
+      aria-hidden="true"
+      class="icon-16p checkbox-fakecheck-img"
+      focusable="false"
+      role="img"
+      style="color: rgb(255, 0, 0);"
+      viewBox="0 0 16 16"
+    >
+      <use
+        xlink:href="#ic-checkmark"
+      />
+    </svg>
+  </span>
+  Custom Checkbox Label
+</label>
+`;
