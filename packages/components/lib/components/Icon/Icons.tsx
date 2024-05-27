@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import svg from "@arcnight/styles/assets/img/icons/sprite-icons.svg";
+import svg from "@arcnight/styles/assets/img/icons/sprite-icons.svg?raw";
 
 export const ICONS_ID = "icons-root";
 
