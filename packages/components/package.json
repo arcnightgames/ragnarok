@@ -72,5 +72,11 @@
     "vite-plugin-dts": "^3.8.1",
     "vite-plugin-lib-inject-css": "^2.0.1",
     "vitest": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@arcnight/hooks": "^0.1.0",
+    "@arcnight/shared": "^0.1.0",
+    "@arcnight/styles": "^0.1.0",
+    "@arcnight/utils": "^0.1.0"
   }
 }
