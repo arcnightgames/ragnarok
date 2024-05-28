@@ -1,0 +1,10 @@
+@import "@arcnight/styles/scss/lib";
+
+.kbd {
+	padding-block: 0;
+	padding-inline: em(4);
+	background-color: var(--background-strong);
+	color: var(--text-norm);
+	border: 1px solid var(--border-norm);
+	border-radius: var(--border-radius-sm);
+}

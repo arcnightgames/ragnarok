@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Kbd component > renders correctly with a combination key shortcut 1`] = `
+<DocumentFragment>
+  <kbd
+    aria-label="Keyboard shortcut: Ctrl+C"
+    class="kbd"
+  >
+    Ctrl+C
+  </kbd>
+</DocumentFragment>
+`;
+
+exports[`Kbd component > renders correctly with a single key shortcut 1`] = `
+<DocumentFragment>
+  <kbd
+    aria-label="Keyboard shortcut: A"
+    class="kbd"
+  >
+    A
+  </kbd>
+</DocumentFragment>
+`;
+
+exports[`Kbd component > renders correctly with additional className 1`] = `
+<DocumentFragment>
+  <kbd
+    aria-label="Keyboard shortcut: Ctrl+V"
+    class="kbd custom-class"
+  >
+    Ctrl+V
+  </kbd>
+</DocumentFragment>
+`;

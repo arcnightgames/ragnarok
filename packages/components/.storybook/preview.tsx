@@ -20,10 +20,10 @@ const config: ArcnightConfig = {
 const preview: Preview = {
   parameters: {
     viewMode: "docs",
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: { expanded: true },
+    actions: {argTypesRegex: "^on[A-Z].*"},
+    controls: {expanded: true},
     previewTabs: {
-      canvas: { hidden: true },
+      canvas: {hidden: true},
     },
   },
   decorators: [
@@ -33,7 +33,7 @@ const preview: Preview = {
         <Story />
       </ConfigProvider>
     ),
-  ]
-}
+  ],
+};
 
 export default preview;
