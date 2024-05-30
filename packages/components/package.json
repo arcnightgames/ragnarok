@@ -23,7 +23,7 @@
     "pretty": "prettier --check $(find . -type d \\( -name 'node_modules' -o -name 'dist' -o -name '.vitest' -o -name 'coverage' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
     "pretty:fix": "prettier --write $(find . -type d \\( -name 'node_modules' -o -name 'dist' -o -name '.vitest' -o -name 'coverage' \\) -prune -o \\( -type f -name '*.js' -o -name '*.ts' -o -name '*.tsx' \\) -print)",
     "storybook": "storybook dev --docs --no-open -p 6006",
-    "storybook-raw": "storybook dev --no-open -p 6006",
+    "storybook:raw": "storybook dev --no-open -p 6006",
     "test": "vitest run --passWithNoTests",
     "test:ui": "vitest --ui --coverage.enabled=true",
     "test:update": "vitest run --update"
