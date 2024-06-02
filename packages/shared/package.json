@@ -26,13 +26,15 @@
     "@arcnight/crypto": "workspace:packages/crypto",
     "@arcnight/utils": "workspace:packages/utils",
     "jsbi": "^4.3.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "ua-parser-js": "^1.0.38"
   },
   "devDependencies": {
     "@arcnight/colors": "workspace:packages/colors",
     "@arcnight/eslint-config-arcnight": "workspace:packages/eslint-config-arcnight",
     "@types/lodash": "^4.17.0",
     "@types/node": "^20.12.3",
+    "@types/ua-parser-js": "^0.7.39",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.3",
