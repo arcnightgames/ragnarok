@@ -8,6 +8,9 @@
       "@containers/*": [
         "lib/containers/*"
       ],
+      "@hooks/*": [
+        "lib/hooks/*"
+      ],
       "@hooks": [
         "lib/hooks/index.ts"
       ],

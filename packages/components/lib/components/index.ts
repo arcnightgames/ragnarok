@@ -5,3 +5,4 @@ export * from "./Icon";
 export * from "./Input";
 export * from "./Kbd";
 export * from "./Logo";
+export * from "./Portal";
