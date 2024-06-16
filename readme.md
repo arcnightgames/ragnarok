@@ -25,6 +25,12 @@ yarn build
 
 For additional details on how to interact with the monorepo, see the [yarn docs](https://yarnpkg.com/) for reference.
 
+## Contributors
+
+<a href="https://github.com/arcnightgames/ragnarok/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=arcnightgames/ragnarok" alt="contributors" />
+</a>
+
 ## License
 
 The code and data files in this distribution are licensed under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See https://www.gnu.org/licenses/ for a copy of this license.
