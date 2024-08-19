@@ -10,7 +10,7 @@ You'll need to have the following environment to work with this project
 
 You can find more detailed version-constrains for Node.js and yarn in `package.json`.
 
-``shell
+```shell
 # Clone the project
 git clone https://github.com/arcnightgames/ragnarok.git
 git clone git@github.com:arcnightgames/ragnarok.git
