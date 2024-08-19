@@ -10,16 +10,21 @@ You'll need to have the following environment to work with this project
 
 You can find more detailed version-constrains for Node.js and yarn in `package.json`.
 
-```shell
 # Clone the project
+```shell
 git clone https://github.com/arcnightgames/ragnarok.git
 git clone git@github.com:arcnightgames/ragnarok.git
+```
 
 # Install all dependencies for the entire monorepo & symlink
 # local dependents to one another
+
+``shell
 yarn install
+```
 
 # Build clients
+```shell
 yarn build
 ```
 
