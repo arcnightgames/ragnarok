@@ -19,7 +19,7 @@ git clone git@github.com:arcnightgames/ragnarok.git
 # Install all dependencies for the entire monorepo & symlink
 # local dependents to one another
 
-``shell
+```shell
 yarn install
 ```
 
